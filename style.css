@@ -845,6 +845,10 @@ blockquote p {
     font-size: 1.4rem;
 }
 
+blockquote strong {
+    font-weight: normal;
+}
+
 h2.sous_titre--1 {
     padding: 0 20% 0;
 }
