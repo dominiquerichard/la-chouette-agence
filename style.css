@@ -287,6 +287,8 @@ a:hover {
     font-size: 32px;
 }
 
+/* Navigation du header - bloc 0 */
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -362,6 +364,8 @@ a:hover {
     z-index: 2;
 }
 
+/* Début du responsive */
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -402,6 +406,8 @@ a:hover {
         margin: 10px auto 0;
     }
 }
+
+/* Suite du nav */
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -824,6 +830,32 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
+/* Modifications du CSS */
+/* Pour SEO, Accessibilité et Optimisation */
+
+blockquote {
+    border-left: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 10% 0;
+}
+
+blockquote p {
+    font-size: 1.4rem;
+}
+
+h2.sous_titre--1 {
+    padding: 0 20% 0;
+}
+
+h2.sous_titre--2 {
+    padding: 0 28% 0;
+}
+
+/* Fin des modifications */
+
+/* Suite du responsive */
 
 @media (max-width: 1024px) {
     .bloc {
