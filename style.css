@@ -857,6 +857,12 @@ h2.sous_titre--2 {
     padding: 0 28% 0;
 }
 
+address {
+    text-align: right;
+    padding-right: 15px;
+    border-right: 2px solid grey;
+}
+
 /* Fin des modifications */
 
 /* Suite du responsive */
