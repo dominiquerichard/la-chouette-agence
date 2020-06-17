@@ -1106,12 +1106,6 @@ address {
         margin-bottom: 0;
     }
         
-    /* Modification du Footer */
-
-    div.footer {
-        margin: 10px 0 0 30%;
-    }
-
 }
 
 @media (max-width: 400px) {
