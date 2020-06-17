@@ -1053,7 +1053,7 @@ address {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 5px 5% 5px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1068,17 +1068,55 @@ address {
         width: 180px;
         height: 320px;
     }
+
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+
+    address {
+        border-right: none;
+        text-align: center;
+    }
+
+    .row-no-gutters {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.col-sm-3 span.fa {
+        padding: 0 10px;
+    }
+
+    /* Modifications responsive */
+    /* Images du portfolio */
+
+    div.col-sm-6 a img {
+        margin: 0 auto;
+    }
+
+    div.col-sm-6 h3 {
+        margin-bottom: 5px;
+    }
+
+    div.col-sm-6 p {
+        margin-bottom: 50px;
+    }
+
+    div.col-sm-6 p.space {
+        margin-bottom: 0;
+    }
+        
+    /* Modification du Footer */
+
+    div.footer {
+        margin: 10px 0 0 30%;
+    }
+
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
