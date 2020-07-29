@@ -783,7 +783,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: none!important;
 }
 
 .bgc-white {
@@ -821,6 +821,7 @@ h4 {
     background-color: var(--couleurFond);
     padding: 5px;
     border-radius: 20px;
+    text-decoration: none!important;
 }
 
 .ltc-white:hover {
@@ -919,6 +920,10 @@ address {
 
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+
+    .bold-link {
+        font-size: 1.2em;
     }
 
 }
@@ -1178,7 +1183,11 @@ address {
     div.col-sm-6 p.space {
         margin-bottom: 0;
     }
-        
+
+    a.contact-equipe {
+        font-size: 1em;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -1187,4 +1196,9 @@ address {
         padding-left: 0;
         padding-right: 0;
     }
+
+    a.contact-equipe {
+        font-size: 0.7em;
+    }
+
 }
